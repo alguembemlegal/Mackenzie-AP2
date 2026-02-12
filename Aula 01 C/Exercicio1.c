@@ -7,9 +7,9 @@ int main (){
     printf("Vamos calcular quantos salarios minimos voce recebe, digite o valor do seu salario bruto: \n");
     scanf("%f", &salarioB);
 
-    double Salario = salarioM/salarioB;
+    double Salario = salarioB / salarioM;
     
-    printf("Voce recebe %.2d salarios minimos", &Salario);
+    printf("Voce recebe %.2f salarios minimos", Salario);
 
     return 0;
 }
