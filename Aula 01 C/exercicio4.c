@@ -3,7 +3,7 @@
 int main(){
     double largura, comprimento, area;
 
-    printf("Vamos calcular a area de um terreno retangular para uma imobiliaria");
+    printf("Vamos calcular a area de um terreno retangular para uma imobiliaria \n");
 
     printf("Digite a largura do terreno: \n");
     scanf("%lf", &largura);
@@ -20,7 +20,7 @@ int main(){
     }
     area = largura * comprimento;
 
-    printf("A area do terreno eh: %.2lf metros quadrados", area);
+    printf("A area do terreno eh: %.2lf metros quadrados\n", area);
 
     return 0;
 }
